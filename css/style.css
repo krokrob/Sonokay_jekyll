@@ -1,0 +1,112 @@
+/* You can put your own style here */
+body {
+	background-color: #1B1627;
+	font-family: Droid Serif;
+}
+.jumbotron{
+	background-image: url('../images/vintage.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 600px;
+	padding-top: 200px;
+	color: #F1E1BA;
+	text-shadow: 3px 3px 5px #1B1627;
+}
+.jumbotron h1 {
+	font-family: Satisfy;
+}
+.col-sm-4 {
+	text-align: center;
+	color: #F1E1BA;
+	padding-top: 1em;
+}
+
+.col-sm-4 img {
+	background-color: #F1E1BA;
+	border-radius: 10%;
+	padding: 5px;
+}
+
+.col-sm-4 img:hover {
+	border: solid 2px #F1E1E5;
+}
+
+.theme {
+	border: solid 1px #F1E1BA;
+	height: 300px;
+	width: 300px;
+	border-radius: 10%;
+	padding: 4em 1em 0em 1em;
+
+}
+
+.footer {
+	text-align: center;
+	padding-top: 3em;
+}
+.navbar-transparent {
+  background-color: rgba(55, 55, 55, 0.7);
+}
+  
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+  
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
+
+.navbar-transparent .navbar-form {
+	padding-top: 1em;
+}
+
+.navbar-transparent .dropdown-menu {
+	background-color: #1B1627;
+}
+
+.navbar-transparent .dropdown-menu a {
+	color: #F1E1BA;
+}
+
+a,
+a:hover {
+	text-decoration: none;
+}
+
+.footer a,
+#contact_right a {
+	color: #F1E1BA;
+}
+.footer a:hover,
+#contact_right a:hover {
+	color: white;
+}
+
+#contact {
+	color: #F1E1BA;
+	margin-top: 150px;
+}
+
+#contact li {
+	list-style-type: none;
+	padding-top: 2em;
+}
+
+#contact_right {
+	padding-left: 3em;
+}
+
